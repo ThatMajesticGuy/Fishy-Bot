@@ -18,7 +18,7 @@ exports.run = (bot, message, args) => {
     .addField("__Rule #7__", "**__Do NOT use any voice changers or modifiers__**")
     .addField("__Rule #8__", "**__Do NOT ask anyone for personal information, like IP adresses, school, etc.")
     .addField("__Rule #9__", "**__Do NOT Post any unallowed links or shortened links. These are the allowed links__**\n***Roblox, Twitter, Giphy, Gyazo, Lightshot, Puu.sh, Twitch, Trello, Tenor, Tumblr, Reddit, Soundcloud, Steam, or YouTube***")
-    .addField("Make sure you follow these rules!", "If you see a person breaking the rules, do `fb!report [user]` to report them!")
+    .addField("Make sure you follow these rules!", "If you see a person breaking the rules, do `fb!report [user]` to report them! Or you can do `fb!rules [number]` to get a specific rule. If you do `fb!rules` it will DM the rules to you")
     message.channel.send({ embed: embed })
   } else {
     var rule = rules[number]
