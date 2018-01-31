@@ -52,3 +52,5 @@ exports.run = async (bot, message, args) => {
         description: "Gets a roblox character",
         usage: `fb!roblox [roblox user]`,
       }
+
+exports.aliases = ["rblx"]
