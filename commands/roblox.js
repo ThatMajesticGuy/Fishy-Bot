@@ -40,7 +40,6 @@ exports.run = async (bot, message, args) => {
             .addField("ID", `${id}`)
             .addField("Friends", `${username} has **${friends}** friends`)
             .addField("Primary Group",  `${group}`)
-            .addField("Group", `${groupjson2.body[username]}`)
             message.channel.send({ embed: embed2 });
         }
       } catch (err) {
